@@ -2,7 +2,7 @@
 
 
 
-alert('Boas vindas ao jogo do  numero secreto');
+alert( 'Boas vindas ao jogo do  numero secreto' );
 let numeroSecreto = 9;
 console.log(`Resposta correta ${numeroSecreto}`);
 let chute
@@ -23,7 +23,7 @@ while ( chute !== numeroSecreto ) {
     }
 }
 if(tentativas > 1 ){
-    alert(`isso ai ! você acertou ${numeroSecreto} com ${tentativas} tentivas`)
+    alert(` isso ai ! você acertou ${numeroSecreto} com ${tentativas} tentivas `)
 }else{
     alert( `Isso ai! você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativa.`)
 }

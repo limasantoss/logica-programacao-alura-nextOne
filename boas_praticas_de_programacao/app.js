@@ -9,7 +9,7 @@ let chute
 let tentativas = 1
 
 //enquanto chute não for igual ao numero secreto 
-while (chute !== numeroSecreto) {
+while ( chute !== numeroSecreto ) {
     chute = prompt('escolha um numero entre 1 a 10')
     if (chute == numeroSecreto) {
         break

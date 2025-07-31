@@ -11,10 +11,10 @@ let tentativas = 1
 //enquanto chute não for igual ao numero secreto 
 while ( chute !== numeroSecreto ) {
     chute = prompt('escolha um numero entre 1 a 10')
-    if (chute == numeroSecreto) {
+    if ( chute == numeroSecreto ) {
         break
     } else {
-        if (chute > numeroSecreto) {
+        if ( chute > numeroSecreto ) {
             alert(`O numero secreto é menor que ${chute}`)
         } else {
             alert(` O número secreto é mairo que ${chute}`)

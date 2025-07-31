@@ -25,5 +25,5 @@ while ( chute !== numeroSecreto ) {
 if(tentativas > 1 ){
     alert(` isso ai ! você acertou ${numeroSecreto} com ${tentativas} tentivas `)
 }else{
-    alert( `Isso ai! você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativa.`)
+    alert( ` Isso ai! você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativa. `)
 }
